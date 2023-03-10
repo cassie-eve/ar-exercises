@@ -26,4 +26,11 @@ gastown = Store.create(
   womens_apparel: false
 )
 
+yaletown = Store.create(
+  name: "Yaletown", 
+  annual_revenue: 290000,
+  mens_apparel: true,
+  womens_apparel: true
+)
+
 puts Store.count
